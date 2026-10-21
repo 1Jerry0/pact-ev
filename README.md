@@ -30,8 +30,8 @@ Code comments, console messages and the text summaries written to `results/` are
 1. **Data.** Download MP-EVData and UrbanEV into `data/raw/` as described in `data/README.md`, and run `python data/fetch_weather.py`.
 2. **Prepare inputs.** `python formal/code/prepare_data.py` writes `formal/data/`.
 3. **Stage 1.** `bash formal/setup.sh` (installs the foundation-model weights) and `bash formal/run_all.sh`; outputs go to `formal/out/`. `SMOKE=1 bash formal/run_all.sh` runs a small smoke test in a few minutes.
-4. **Stage 2.** `python run_pipeline.py` runs all analyses in order (`--list` shows the 109 steps, `--group` selects `prespecified`, `hourly`, `battery` or `report`, `--from N` resumes, `--jobs N` sets the number of worker processes). Logs go to `results/logs/`.
-5. **Figures and tables.** The last group (`report`) writes the figures to `results/figures/` and the appendix tables to `results/appendix_profit.md`; `PAPER_MAP.md` gives the source of every other number.
+4. **Stage 2.** `python run_pipeline.py` runs all analyses in order (`--list` shows the 110 steps, `--group` selects `prespecified`, `hourly`, `battery` or `report`, `--from N` resumes, `--jobs N` sets the number of worker processes). Logs go to `results/logs/`.
+5. **Figures and tables.** The last group (`report`) writes the figures and the graphical abstract as submitted to `results/figures_ae/` (`scripts/fig_ae.py`; vector PDF and PNG), the same figures in an earlier layout to `results/figures/`, and the appendix tables to `results/appendix_profit.md`; `PAPER_MAP.md` gives the source of every other number.
 
 Forecasting models are retrained on expanding windows with fixed seeds; LightGBM is run with `deterministic=True`. Foundation-model inference on a different GPU can change the last digits of the forecasts.
 

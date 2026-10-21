@@ -129,6 +129,7 @@ STEPS = [
     ('report', 's', 'toy_example_v8.py', [], {}),
     ('report', 's', 'make_fig_csvs.py', [], {}),
     ('report', 's', 'fig_v8.py', [], {}),
+    ('report', 's', 'fig_ae.py', [], {}),
 ]
 
 
