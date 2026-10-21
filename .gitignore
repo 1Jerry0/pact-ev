@@ -1,0 +1,9 @@
+data/raw/
+formal/data/
+formal/out/
+formal/out_smoke/
+formal/logs/
+results/*
+!results/.gitkeep
+__pycache__/
+*.pyc
