@@ -38,6 +38,8 @@ STEPS = [
     ('hourly', 's', 'ana_cost_basis.py', [], {}),
     ('hourly', 's', 'ana_cost_basis_st.py', [], {}),
     ('hourly', 's', 'ana_cost_basis_t4.py', [], {}),
+    ('hourly', 's', 'exp_safety_stock.py', [], {}),
+    ('hourly', 's', 'ana_safety_stock.py', [], {}),
     ('hourly', 's', 'rev_dswe_profit.py', [], {}),
     ('hourly', 's', 'rev_dswe_profit.py', [], {'GRID': 'tight'}),
     ('hourly', 's', 'rev_dswe_st_profit.py', [], {}),

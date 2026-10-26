@@ -43,6 +43,7 @@ Paths are relative to the repository root. `s/` = `scripts/`, `p/` = `scripts/pr
 | Table 3 (A7 data-anchored and tight grids, A8; midpoint vs default, interior point, random choice, peak-minimising) | `s/exp_cost_basis_t4.py`, `s/ana_cost_basis_t4.py` | `R/cb_t4_summary.txt` |
 | Service level, Fig. 6(d) | `s/exp_cost_basis.py`, `s/ana_cost_basis.py` | `R/cb_hourly_summary.txt`, `R/cb_tradeoff_points.parquet` |
 | Table 3 (UrbanEV) | `p/rev_uev.py` | `PB/rev_uev.txt` |
+| Table S13, safety-stock benchmark (minimum stock re-selected daily from the previous 28 days; plan fixed before the run) | `s/exp_safety_stock.py`, `s/ana_safety_stock.py` | `R/safety_stock_A7.parquet`, `R/safety_stock_summary.txt` |
 | Other tariffs | `p/exp_tariffs.py` | `PB/exp_tariffs.txt` |
 | Buffer share chosen in advance | `p/buffer_alpha.py` | `PB/tables_extra/buffer_alpha_A7.md` |
 | Table 4, Fig. 6(c), Table S4 | `p/exp_bl.py`, `p/exp_bl2.py`, `s/rev_table5_profit.py`, `s/rev_appendix_profit.py` | `PB/exp_bl.csv`, `PB/exp_bl2_a.csv`, `R/table5_profit.md`, `R/appendix_profit.md` |

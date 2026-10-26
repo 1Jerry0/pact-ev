@@ -9,7 +9,7 @@ abstract: >-
   the pre-registered forecasting and decision run, the profit-basis analyses, the battery-level
   simulation, and the figures and tables.
 repository-code: "https://github.com/1Jerry0/pact-ev"
-version: 1.0.3
+version: 1.0.4
 date-released: 2026-10-26
 license: MIT
 authors:
