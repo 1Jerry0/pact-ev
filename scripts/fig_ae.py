@@ -1,4 +1,4 @@
-"""Applied Energy 投稿版的图（Figure_1—Figure_8 与图形摘要）：数据与 fig_v8.py 完全相同，只改版式。
+"""投稿版的图（Figure_1—Figure_8 与图形摘要）：数据与 fig_v8.py 完全相同，只改版式。
 按最终印刷尺寸作图（全栏宽 6.5 英寸，正文字号 7—8 磅），用色盲友好的 Okabe–Ito 配色，同时输出矢量 PDF 和 600 dpi PNG；
 图 6 改为 2×2 排列，图 2（研究框架）重画，新增图形摘要（13 cm 宽）。
 写到 results/figures_ae/。用法：python fig_ae.py [concept framework accuracy prices dswe plan value when abstract]"""

@@ -3,14 +3,14 @@ message: "If you use this code, please cite the paper and this software."
 type: software
 title: "Replication code: Forecast error prices and equal-cost charging plans for battery-swapping and charging stations"
 abstract: >-
-  Code that reproduces the tables and figures of the paper "More accurate forecasts, not necessarily
-  lower costs: Forecast error prices and equal-cost charging plans for battery-swapping and charging
-  stations under time-of-use tariffs" from the public MP-EVData and UrbanEV datasets: data preparation,
+  Code that reproduces the tables and figures of the paper "Forecast error prices and equal-cost
+  charging plans: linking demand-forecast accuracy to the operating cost of battery-swapping and charging
+  stations" from the public MP-EVData and UrbanEV datasets: data preparation,
   the pre-registered forecasting and decision run, the profit-basis analyses, the battery-level
   simulation, and the figures and tables.
 repository-code: "https://github.com/1Jerry0/pact-ev"
-version: 1.0.2
-date-released: 2026-10-21
+version: 1.0.3
+date-released: 2026-10-26
 license: MIT
 authors:
   - family-names: Ye

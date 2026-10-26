@@ -2,7 +2,7 @@
 
 Replication code for
 
-> Conglin Ye, Youyuan Wang. *More accurate forecasts, not necessarily lower costs: Forecast error prices and equal-cost charging plans for battery-swapping and charging stations under time-of-use tariffs.* Manuscript submitted to *Applied Energy*, 2026.
+> Conglin Ye, Youyuan Wang. *Forecast error prices and equal-cost charging plans: linking demand-forecast accuracy to the operating cost of battery-swapping and charging stations.* Manuscript under review, 2026.
 
 The code reproduces every table and figure of the paper and its Supplementary Material from two public datasets. `PAPER_MAP.md` lists, for each table, figure and key number, the script that produces it and the output file to read.
 
